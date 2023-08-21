@@ -1,0 +1,1 @@
+case class Message[F[_]](message: String, sender: ConnectedClient[F])
